@@ -1,5 +1,6 @@
 pip install timm
 pip install setproctitle
+pip install tensorboard
 
 mkdir -p ~/.ssh
 cat ./ssh_azure.pub >> ~/.ssh/authorized_keys
