@@ -8,5 +8,5 @@ directories=(
 for dir in "${directories[@]}"; do
     mkdir -p "../HE_transfer_learning/$dir"
 
-    scp -o ProxyJump=xix22010@137.99.0.102 'xix22010@192.168.10.16:/home/xix22010/py_projects/HE_transfer_learning/$dir/*' ../HE_transfer_learning/$dir
+    scp -o ProxyJump=xix22010@137.99.0.102 xix22010@192.168.10.16:/home/xix22010/py_projects/HE_transfer_learning/$dir/* ../HE_transfer_learning/$dir
 done
