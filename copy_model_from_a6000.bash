@@ -3,6 +3,7 @@
 directories=(
     "save_new_v5_half_acc691"
     "save_new_v6_half_acc700"
+    "save_r18_acc705"
 )
 
 for dir in "${directories[@]}"; do
